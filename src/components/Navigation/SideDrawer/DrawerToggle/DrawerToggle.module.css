@@ -1,0 +1,11 @@
+.DrawerToggle {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.DrawerToggle div {
+    width: 24px;
+    height: 2px;
+    background-color: white;
+    margin: 6px 0;
+}
