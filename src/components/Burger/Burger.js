@@ -15,7 +15,7 @@ const burger = props => {
         }, []);
 
     if (transformedIngredients.length === 0) {
-        transformedIngredients = <p>Please add ingredients!</p>
+        transformedIngredients = <p>Your burger is empty :-(</p>
     }
     return (
         <div className={styles.Burger}>
